@@ -12,16 +12,16 @@ public class Main {
         String absolutePath = Paths.get(".").toAbsolutePath().normalize().toString();
 
         // Aufgabe 3.2 Text-Fragmente
-        printTask(absolutePath + "/src/resources/text-fragmente.txt", "Aufgabe 3.2");
+        printTask(absolutePath + "/src/resources/text-fragmente.txt", "Aufgabe 1.2");
 
         // Aufgabe 3.3 DNA-Fragmente-1
-        printTask(absolutePath + "/src/resources/DNA-fragmente-1.txt", "Aufgabe 3.3");
+        printTask(absolutePath + "/src/resources/DNA-fragmente-1.txt", "Aufgabe 1.3");
 
         // Aufgabe 3.4 DNA-Fragmente-2
-        printTask(absolutePath + "/src/resources/DNA-fragmente-2.txt", "Aufgabe 3.4");
+        printTask(absolutePath + "/src/resources/DNA-fragmente-2.txt", "Aufgabe 1.4");
 
         // Aufgabe 3.5 DNA-Fragmente-3
-        printTask(absolutePath + "/src/resources/DNA-fragmente-3.txt", "Aufgabe 3.5");
+        printTask(absolutePath + "/src/resources/DNA-fragmente-3.txt", "Aufgabe 1.5");
 
 
     }
